@@ -1,6 +1,6 @@
 version: '2'
 services:
-    crawler-import-dashboards:
-        build: crawler-import-dashboards/
+    crawlerbot-import-dashboards:
+        build: crawlerbot-import-dashboards/
         environment:
             - ELASTICSEARCH_URL=http://$ELASTICSEARCH_HOST:$ELASTICSEARCH_PORT

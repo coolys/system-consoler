@@ -3,7 +3,7 @@ FROM docker.elastic.co/logstash/logstash-oss:6.1.3
 COPY logstash.yml /usr/share/logstash/config/
 COPY logstash.conf /usr/share/logstash/pipeline/
 
-ENV ELASTICSEARCH_HOST=crawler-elasticsearch \
+ENV ELASTICSEARCH_HOST=crawlerbot-elasticsearch \
     ELASTICSEARCH_PORT=9200 \
     INPUT_TCP_PORT=5000 \
     INPUT_UDP_PORT=5000 \

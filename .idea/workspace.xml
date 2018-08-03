@@ -51,7 +51,7 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
@@ -60,7 +60,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LICENSE" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LICENSE" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LICENSE">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -84,6 +84,9 @@
       <dir>$PROJECT_DIR$</dir>
     </dirStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -97,6 +100,7 @@
     <option name="width" value="1410" />
     <option name="height" value="877" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -110,31 +114,6 @@
             <path>
               <item name="jhipster-console-3.0.2" type="b2602c69:ProjectViewProjectNode" />
               <item name="jhipster-console-3.0.2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jhipster-console-3.0.2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jhipster-console-3.0.2" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jhipster-console-3.0.2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jhipster-console-3.0.2" type="462c0819:PsiDirectoryNode" />
-              <item name="crawler-alerter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jhipster-console-3.0.2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jhipster-console-3.0.2" type="462c0819:PsiDirectoryNode" />
-              <item name="crawler-console" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jhipster-console-3.0.2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jhipster-console-3.0.2" type="462c0819:PsiDirectoryNode" />
-              <item name="crawler-curator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jhipster-console-3.0.2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jhipster-console-3.0.2" type="462c0819:PsiDirectoryNode" />
-              <item name="export-dashboards" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -217,7 +196,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="30" y="23" width="1410" height="877" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -227,8 +205,8 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32948717" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
@@ -274,17 +252,17 @@
     <entry file="file://$PROJECT_DIR$/crawler-console/logtrail.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LICENSE">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="28" selection-start-column="28" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="29" />
         </state>
       </provider>
     </entry>

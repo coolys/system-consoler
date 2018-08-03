@@ -13,7 +13,7 @@ env:
     - APP=curator
 install:
   - docker version
-  - docker build -f crawler-"$APP"/Dockerfile -t crawler/crawler-"$APP":travis crawler-"$APP"/
+  - docker build -f crawlerbot-"$APP"/Dockerfile -t crawlerbot/crawlerbot-"$APP":travis crawlerbot-"$APP"/
 script:
   - docker images
-  - docker inspect crawler/crawler-"$APP":travis
+  - docker inspect crawlerbot/crawlerbot-"$APP":travis

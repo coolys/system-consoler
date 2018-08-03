@@ -1,14 +1,14 @@
 # Crawler Console
 
 [![Build Status][travis-image]][travis-url]
-[![Join the chat at https://gitter.im/crawler/crawler-console](https://badges.gitter.im/crawler/crawler-console.svg)](https://gitter.im/crawler/crawler-console?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Join the chat at https://gitter.im/crawlerbot/crawlerbot-console](https://badges.gitter.im/crawlerbot/crawlerbot-console.svg)](https://gitter.im/crawlerbot/crawlerbot-console?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-This is the [Crawler](http://crawler.github.io/) Console, based on the [ELK Stack](https://www.elastic.co/products). It provides a default configuration to get started with logs and metrics monitoring with ELK as well as some nice dashboards.
+This is the [Crawler](http://crawlerbot.github.io/) Console, based on the [ELK Stack](https://www.elastic.co/products). It provides a default configuration to get started with logs and metrics monitoring with ELK as well as some nice dashboards.
 
-Please refer to the [Crawler Monitoring Documentation](http://crawler.github.io/monitoring) for instructions on how to set up the Crawler Console.
+Please refer to the [Crawler Monitoring Documentation](http://crawlerbot.github.io/monitoring) for instructions on how to set up the Crawler Console.
 
-[travis-image]: https://travis-ci.org/crawler/crawler-console.svg?branch=master
-[travis-url]: https://travis-ci.org/crawler/crawler-console
+[travis-image]: https://travis-ci.org/crawlerbot/crawlerbot-console.svg?branch=master
+[travis-url]: https://travis-ci.org/crawlerbot/crawlerbot-console
 
 ## Quick Start
 
@@ -20,10 +20,10 @@ PRs are welcome ! When contributing, make sure you force build and restart every
 
 ## Images hosted on Docker Hub
 
-- **crawler/crawler-console** [![Automated build](https://img.shields.io/docker/automated/crawler/crawler-console.svg)](https://hub.docker.com/r/crawler/crawler-console/) [![Docker Pulls](https://img.shields.io/docker/pulls/crawler/crawler-console.svg)](https://hub.docker.com/v2/repositories/crawler/crawler-console/)
-- **crawler/crawler-elasticsearch** [![Automated build](https://img.shields.io/docker/automated/crawler/crawler-elasticsearch.svg)](https://hub.docker.com/r/crawler/crawler-elasticsearch/) [![Docker Pulls](https://img.shields.io/docker/pulls/crawler/crawler-elasticsearch.svg)](https://hub.docker.com/v2/repositories/crawler/crawler-elasticsearch/)
-- **crawler/crawler-logstash** [![Automated build](https://img.shields.io/docker/automated/crawler/crawler-logstash.svg)](https://hub.docker.com/r/crawler/crawler-logstash/) [![Docker Pulls](https://img.shields.io/docker/pulls/crawler/crawler-logstash.svg)](https://hub.docker.com/v2/repositories/crawler/crawler-logstash/)
-- **crawler/crawler-zipkin** [![Automated build](https://img.shields.io/docker/automated/crawler/crawler-zipkin.svg)](https://hub.docker.com/r/crawler/crawler-zipkin/) [![Docker Pulls](https://img.shields.io/docker/pulls/crawler/crawler-zipkin.svg)](https://hub.docker.com/v2/repositories/crawler/crawler-zipkin/)
-- **crawler/crawler-alerter** [![Automated build](https://img.shields.io/docker/automated/crawler/crawler-alerter.svg)](https://hub.docker.com/r/crawler/crawler-alerter/) [![Docker Pulls](https://img.shields.io/docker/pulls/crawler/crawler-alerter.svg)](https://hub.docker.com/v2/repositories/crawler/crawler-alerter/)
-- **crawler/crawler-curator** [![Automated build](https://img.shields.io/docker/automated/crawler/crawler-curator.svg)](https://hub.docker.com/r/crawler/crawler-curator/) [![Docker Pulls](https://img.shields.io/docker/pulls/crawler/crawler-curator.svg)](https://hub.docker.com/v2/repositories/crawler/crawler-curator/)
-- **crawler/crawler-import-dashboards** [![Automated build](https://img.shields.io/docker/automated/crawler/crawler-import-dashboards.svg)](https://hub.docker.com/r/crawler/crawler-import-dashboards/) [![Docker Pulls](https://img.shields.io/docker/pulls/crawler/crawler-import-dashboards.svg)](https://hub.docker.com/v2/repositories/crawler/crawler-import-dashboards/)
+- **crawlerbot/crawlerbot-console** [![Automated build](https://img.shields.io/docker/automated/crawlerbot/crawlerbot-console.svg)](https://hub.docker.com/r/crawlerbot/crawlerbot-console/) [![Docker Pulls](https://img.shields.io/docker/pulls/crawlerbot/crawlerbot-console.svg)](https://hub.docker.com/v2/repositories/crawlerbot/crawlerbot-console/)
+- **crawlerbot/crawlerbot-elasticsearch** [![Automated build](https://img.shields.io/docker/automated/crawlerbot/crawlerbot-elasticsearch.svg)](https://hub.docker.com/r/crawlerbot/crawlerbot-elasticsearch/) [![Docker Pulls](https://img.shields.io/docker/pulls/crawlerbot/crawlerbot-elasticsearch.svg)](https://hub.docker.com/v2/repositories/crawlerbot/crawlerbot-elasticsearch/)
+- **crawlerbot/crawlerbot-logstash** [![Automated build](https://img.shields.io/docker/automated/crawlerbot/crawlerbot-logstash.svg)](https://hub.docker.com/r/crawlerbot/crawlerbot-logstash/) [![Docker Pulls](https://img.shields.io/docker/pulls/crawlerbot/crawlerbot-logstash.svg)](https://hub.docker.com/v2/repositories/crawlerbot/crawlerbot-logstash/)
+- **crawlerbot/crawlerbot-zipkin** [![Automated build](https://img.shields.io/docker/automated/crawlerbot/crawlerbot-zipkin.svg)](https://hub.docker.com/r/crawlerbot/crawlerbot-zipkin/) [![Docker Pulls](https://img.shields.io/docker/pulls/crawlerbot/crawlerbot-zipkin.svg)](https://hub.docker.com/v2/repositories/crawlerbot/crawlerbot-zipkin/)
+- **crawlerbot/crawlerbot-alerter** [![Automated build](https://img.shields.io/docker/automated/crawlerbot/crawlerbot-alerter.svg)](https://hub.docker.com/r/crawlerbot/crawlerbot-alerter/) [![Docker Pulls](https://img.shields.io/docker/pulls/crawlerbot/crawlerbot-alerter.svg)](https://hub.docker.com/v2/repositories/crawlerbot/crawlerbot-alerter/)
+- **crawlerbot/crawlerbot-curator** [![Automated build](https://img.shields.io/docker/automated/crawlerbot/crawlerbot-curator.svg)](https://hub.docker.com/r/crawlerbot/crawlerbot-curator/) [![Docker Pulls](https://img.shields.io/docker/pulls/crawlerbot/crawlerbot-curator.svg)](https://hub.docker.com/v2/repositories/crawlerbot/crawlerbot-curator/)
+- **crawlerbot/crawlerbot-import-dashboards** [![Automated build](https://img.shields.io/docker/automated/crawlerbot/crawlerbot-import-dashboards.svg)](https://hub.docker.com/r/crawlerbot/crawlerbot-import-dashboards/) [![Docker Pulls](https://img.shields.io/docker/pulls/crawlerbot/crawlerbot-import-dashboards.svg)](https://hub.docker.com/v2/repositories/crawlerbot/crawlerbot-import-dashboards/)

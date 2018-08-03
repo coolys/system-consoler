@@ -8,7 +8,7 @@ RUN curl -SL $ZIPKIN_REPO/io/zipkin/dependencies/zipkin-dependencies/$ZIPKIN_DEP
 # Copy CRON files
 COPY periodic/ /etc/periodic/
 # To run the dependency job once, run: ./run-job.sh from inside the container
-# `docker-compose exec crawler-zipkin ./run-job.sh`
+# `docker-compose exec crawlerbot-zipkin ./run-job.sh`
 COPY run-job.sh .
 
 CMD crond -b && java ${JAVA_OPTS} -cp . org.springframework.boot.loader.JarLauncher
