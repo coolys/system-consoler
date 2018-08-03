@@ -53,7 +53,7 @@ services:
             - UNIT=days
 
     crawlerbot-alerter:
-        image: crawlerbot/crawlerbot-alerter
+        image: crawlerbot/crawlerbot-alerter:latest
         environment:
             - ES_HOST=crawlerbot-elasticsearch
             - ES_PORT=9200
