@@ -1,0 +1,19 @@
+os:
+  - linux
+services:
+  - docker
+env:
+  matrix:
+    - APP=alerter
+    - APP=console
+    - APP=elasticsearch
+    - APP=logstash
+    - APP=zipkin
+    - APP=import-dashboards
+    - APP=curator
+install:
+  - docker version
+  - docker build -f crawler-"$APP"/Dockerfile -t crawler/crawler-"$APP":travis crawler-"$APP"/
+script:
+  - docker images
+  - docker inspect crawler/crawler-"$APP":travis
